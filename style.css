@@ -1,8 +1,10 @@
-*{
-    text-align: center;
-    margin: auto;
-    padding: auto;
-    font-size : 500px;
-
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  height: 100vh;           /* full layar */
+  background-color: lightblue;
+  margin: 0;
+  font-size : 50px;
 }
-
